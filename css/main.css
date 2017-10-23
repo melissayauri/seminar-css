@@ -1,0 +1,59 @@
+/*setear los archivos*/
+/*colocar las propiedades en orden alfabetico*/
+body{
+  box-sizing: border-box;
+  /*agregando el tipo de fuente*/
+  color: #30303;
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/*clases reutilizables*/
+/*aplicando mayusculas*/
+.text-uppercase{
+  text-transform: uppercase;
+}
+/*la imagen y el menu de navegacion se coloca en una misma linea*/
+.box-header{
+  display: inline-block;
+}
+
+/*clases especificas*/
+
+.logo-header{
+  width: 200px;
+}
+
+li{
+  /*la lista se ubica en una misma linea*/
+  display: inline;
+  list-style: none;
+
+}
+
+li a{
+  text-decoration: none;
+  color: inherit;
+}
+header{
+  position: relative;
+}
+
+nav{
+
+  position: absolute;
+  right:  5%;
+  top: 50%;
+  /*transforma la etiqute nav en su mitad*/
+  transform: translateY(-50%);
+
+}
+
+section{
+  text-align: center;
+}
+
+div{
+  display: inline-block;
+  width: 33%;
+}
